@@ -1,4 +1,8 @@
-<template>oi</template>
+<template>
+  <header>cabeçalho</header>
+  <main>main</main>
+  <footer>rodapé</footer>
+</template>
 
 <style>
 @import "@/assets/base.css";
@@ -8,5 +12,11 @@
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+}
+
+header,
+footer {
+  background-color: cornflowerblue;
+  height: 15%;
 }
 </style>
