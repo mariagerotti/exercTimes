@@ -1,5 +1,11 @@
 <template>
-  <header>cabeçalho</header>
+  <header>
+    <span class="texto-header">Home</span>
+    <span class="separador">|</span>
+    <span class="texto-header">Jogadores</span>
+    <span class="separador">|</span>
+    <span class="texto-header">Times</span>
+  </header>
   <main>main</main>
   <footer>rodapé</footer>
 </template>
@@ -12,6 +18,7 @@
   margin: 0 auto;
   /*padding: 2rem;*/
   font-weight: normal;
+  height: 100vh;
 }
 
 header,
@@ -20,5 +27,12 @@ footer {
   height: 15%;
   font-size: 1.3rem;
   color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+main {
+  min-height: 70%;
 }
 </style>
