@@ -36,7 +36,7 @@ main {
   min-height: 70%;
 }
 
-header, span{
+header span{
   padding: 0 1%;
 }
 </style>
