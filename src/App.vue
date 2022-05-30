@@ -10,7 +10,7 @@
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /*padding: 2rem;*/
   font-weight: normal;
 }
 
@@ -18,5 +18,7 @@ header,
 footer {
   background-color: cornflowerblue;
   height: 15%;
+  font-size: 1.3rem;
+  color: white;
 }
 </style>
