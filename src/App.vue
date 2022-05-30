@@ -35,4 +35,8 @@ footer {
 main {
   min-height: 70%;
 }
+
+header, span{
+  padding: 0 1%;
+}
 </style>
