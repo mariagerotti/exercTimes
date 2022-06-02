@@ -1,11 +1,11 @@
 <template>
   <header>
     <div class="menu-esquerdo">
-      <span>Home</span>
+      <span><RouterLink to="/">Home</RouterLink></span>
       <span>|</span>
-      <span>Jogadores</span>
+      <span><RouterLink to="/jogadores">Jogadores</RouterLink></span>
       <span>|</span>
-      <span>Times</span>
+      <span><RouterLink to="/times">times</RouterLink></span>
     </div>
     <div class="menu-direito"><span>sair</span></div>
   </header>
