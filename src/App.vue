@@ -1,22 +1,13 @@
 <template>
-  <header>
-    <span class="texto-header">Home</span>
-    <span class="separador">|</span>
-    <span class="texto-header">Jogadores</span>
-    <span class="separador">|</span>
-    <span class="texto-header">Times</span>
-  </header>
-  <main>main</main>
-  <footer>rodapé</footer>
+  <RouterView />
 </template>
 
 <style>
 @import "@/assets/base.css";
 
 #app {
-  max-width: 1280px;
+  max-width: calc(100-1.5rem);
   margin: 0 auto;
-  /*padding: 2rem;*/
   font-weight: normal;
   height: 100vh;
 }
@@ -30,6 +21,7 @@ footer {
   display: flex;
   align-items: center;
   padding-left: 1.5rem;
+  justify-content: space-between;
 }
 
 main {
@@ -37,6 +29,6 @@ main {
 }
 
 header span {
-  padding: 0 1%;
+  padding: 0 10px;
 }
 </style>

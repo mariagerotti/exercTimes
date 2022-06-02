@@ -1,11 +1,14 @@
 <template>
   <header>
-    <span>Home</span>
-    <span>|</span>
-    <span>Jogadores</span>
-    <span>|</span>
-    <span>Times</span>
+    <div class="menu-esquerdo">
+      <span>Home</span>
+      <span>|</span>
+      <span>Jogadores</span>
+      <span>|</span>
+      <span>Times</span>
+    </div>
+    <div class="menu-direito"><span>sair</span></div>
   </header>
-  <main>main</main>
-  <footer>bem vindo</footer>
+  <main>bem-vindo</main>
+  <footer>rodape</footer>
 </template>
