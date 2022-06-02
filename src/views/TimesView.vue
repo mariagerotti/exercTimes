@@ -6,6 +6,6 @@
     <span>|</span>
     <span>Times</span>
   </header>
-  <main>main</main>
-  <footer>bem vindo</footer>
+  <main>times</main>
+  <footer>rodapé</footer>
 </template>
