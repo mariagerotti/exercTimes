@@ -21,6 +21,10 @@
   font-weight: normal;
   height: 100vh;
 }
+a{
+  color: inherit;
+  text-decoration: none;
+}
 
 header,
 footer {
